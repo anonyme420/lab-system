@@ -214,7 +214,7 @@ export default function OCRPage() {
     <div className="animate-fade-in">
       <div className="page-header">
         <h1>OCR Scanner</h1>
-        <p>Scan manual lab forms and extract sample data with OCR — US-02</p>
+        <p>Scan manual lab forms and extract sample data with OCR </p>
       </div>
 
       {/* Upload Zone */}

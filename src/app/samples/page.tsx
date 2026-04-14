@@ -108,7 +108,7 @@ export default function SamplesPage() {
     <div className="animate-fade-in">
       <div className="page-header">
         <h1>Sample Management</h1>
-        <p>Review, approve, or reject lab samples — US-11 (One-Click Validation)</p>
+        <p>Review, approve, or reject lab samples </p>
       </div>
 
       {/* Filters & Search */}

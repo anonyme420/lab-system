@@ -161,7 +161,7 @@ export default function UploadPage() {
     <div className="animate-fade-in">
       <div className="page-header">
         <h1>Upload Files</h1>
-        <p>Import lab sample data from CSV, Excel, or DOCX files — US-01 &amp; US-06</p>
+        <p>Import lab sample data from CSV, Excel, or DOCX files</p>
       </div>
 
       {/* Upload Zone */}
