@@ -1,0 +1,416 @@
+{
+  "samples": [
+    {
+      "id": "1",
+      "sampleId": "BIO-2025-0001",
+      "patientName": "Ahmed Ben Salah",
+      "sampleType": "Blood",
+      "collectionDate": "2025-04-01",
+      "receivedDate": "2025-04-02",
+      "testRequested": "Complete Blood Count",
+      "status": "approved",
+      "importSource": "csv",
+      "importedAt": "2025-04-07T08:30:00Z",
+      "standardized": true,
+      "validatedAt": "2026-04-14T21:28:17.184Z",
+      "validatedBy": "Lab Manager"
+    },
+    {
+      "id": "2",
+      "sampleId": "BIO-2025-0002",
+      "patientName": "Fatma Trabelsi",
+      "sampleType": "Urine",
+      "collectionDate": "2025-04-02",
+      "receivedDate": "2025-04-03",
+      "testRequested": "Urinalysis",
+      "status": "approved",
+      "importSource": "excel",
+      "importedAt": "2025-04-07T09:15:00Z",
+      "standardized": true,
+      "validatedAt": "2026-04-14T21:28:20.475Z",
+      "validatedBy": "Lab Manager"
+    },
+    {
+      "id": "3",
+      "sampleId": "BIO-2025-0003",
+      "patientName": "Mohamed Khelifi",
+      "sampleType": "Tissue",
+      "collectionDate": "2025-04-01",
+      "receivedDate": "2025-04-01",
+      "testRequested": "Histopathology",
+      "status": "approved",
+      "importSource": "ocr",
+      "importedAt": "2025-04-07T10:00:00Z",
+      "validatedAt": "2025-04-07T14:00:00Z",
+      "validatedBy": "Lab Manager",
+      "standardized": true
+    },
+    {
+      "id": "4",
+      "sampleId": "BIO-2025-0004",
+      "patientName": "Amira Jaziri",
+      "sampleType": "Blood",
+      "collectionDate": "2025-04-03",
+      "receivedDate": "2025-04-04",
+      "testRequested": "Lipid Panel",
+      "status": "rejected",
+      "importSource": "csv",
+      "importedAt": "2025-04-07T11:30:00Z",
+      "validatedAt": "2025-04-07T15:00:00Z",
+      "validatedBy": "Lab Manager",
+      "rejectionComment": "Collection date inconsistency — please re-submit with correct date.",
+      "standardized": true
+    },
+    {
+      "id": "1776202060149",
+      "sampleId": "BIO-9991",
+      "patientName": "Amina Zayani",
+      "sampleType": "Blood",
+      "collectionDate": "2025-04-10",
+      "receivedDate": "2025-04-11",
+      "testRequested": "Complete Blood Count",
+      "status": "pending",
+      "importSource": "csv",
+      "importedAt": "2026-04-14T21:27:55.014Z",
+      "standardized": true,
+      "rawData": {
+        "Sample ID": "BIO-9991",
+        "Patient Name": "Amina Zayani",
+        "Sample Type": "Blood",
+        "Collection Date": "2025-04-10",
+        "Received Date": "2025-04-11",
+        "Test Requested": "Complete Blood Count"
+      }
+    },
+    {
+      "id": "1776202060150",
+      "sampleId": "BIO-9992",
+      "patientName": "Karim Ben Youssef",
+      "sampleType": "Urine",
+      "collectionDate": "2025-04-11",
+      "receivedDate": "2025-04-12",
+      "testRequested": "Urinalysis",
+      "status": "pending",
+      "importSource": "csv",
+      "importedAt": "2026-04-14T21:27:55.014Z",
+      "standardized": true,
+      "rawData": {
+        "Sample ID": "BIO-9992",
+        "Patient Name": "Karim Ben Youssef",
+        "Sample Type": "Urine",
+        "Collection Date": "2025-04-11",
+        "Received Date": "2025-04-12",
+        "Test Requested": "Urinalysis"
+      }
+    },
+    {
+      "id": "1776202060151",
+      "sampleId": "BIO-9993",
+      "patientName": "Leila Kallel",
+      "sampleType": "Serum",
+      "collectionDate": "2025-04-12",
+      "receivedDate": "2025-04-12",
+      "testRequested": "Thyroid Panel",
+      "status": "pending",
+      "importSource": "csv",
+      "importedAt": "2026-04-14T21:27:55.014Z",
+      "standardized": true,
+      "rawData": {
+        "Sample ID": "BIO-9993",
+        "Patient Name": "Leila Kallel",
+        "Sample Type": "Serum",
+        "Collection Date": "2025-04-12",
+        "Received Date": "2025-04-12",
+        "Test Requested": "Thyroid Panel"
+      }
+    },
+    {
+      "id": "1776202060152",
+      "sampleId": "BIO-9994",
+      "patientName": "Yassine Bouazizi",
+      "sampleType": "Tissue",
+      "collectionDate": "2025-04-09",
+      "receivedDate": "2025-04-10",
+      "testRequested": "Histopathology",
+      "status": "pending",
+      "importSource": "csv",
+      "importedAt": "2026-04-14T21:27:55.014Z",
+      "standardized": true,
+      "rawData": {
+        "Sample ID": "BIO-9994",
+        "Patient Name": "Yassine Bouazizi",
+        "Sample Type": "Tissue",
+        "Collection Date": "2025-04-09",
+        "Received Date": "2025-04-10",
+        "Test Requested": "Histopathology"
+      }
+    },
+    {
+      "id": "1776202060153",
+      "sampleId": "BIO-9995",
+      "patientName": "Salma Ayari",
+      "sampleType": "Plasma",
+      "collectionDate": "2025-04-12",
+      "receivedDate": "2025-04-13",
+      "testRequested": "Lipid Panel",
+      "status": "pending",
+      "importSource": "csv",
+      "importedAt": "2026-04-14T21:27:55.014Z",
+      "standardized": true,
+      "rawData": {
+        "Sample ID": "BIO-9995",
+        "Patient Name": "Salma Ayari",
+        "Sample Type": "Plasma",
+        "Collection Date": "2025-04-12",
+        "Received Date": "2025-04-13",
+        "Test Requested": "Lipid Panel"
+      }
+    },
+    {
+      "id": "1776205235617",
+      "sampleId": "BIO-99988",
+      "patientName": "Gabsi",
+      "sampleType": "Blood",
+      "collectionDate": "2025-04-10",
+      "receivedDate": "2025-04-11",
+      "testRequested": "Complete Blood Count",
+      "status": "approved",
+      "importSource": "csv",
+      "importedAt": "2026-04-14T22:21:23.735Z",
+      "standardized": true,
+      "rawData": {
+        "Sample ID": "BIO-99988",
+        "Patient Name": "gabsi",
+        "Sample Type": "Blood",
+        "Collection Date": "2025-04-10",
+        "Received Date": "2025-04-11",
+        "Test Requested": "Complete Blood Count"
+      },
+      "validatedAt": "2026-04-14T22:21:37.885Z",
+      "validatedBy": "Lab Manager"
+    },
+    {
+      "id": "1776205687414",
+      "sampleId": "BIO-2025-9211",
+      "patientName": "Unknown",
+      "sampleType": "Unspecified",
+      "collectionDate": "2026-04-14",
+      "receivedDate": "2026-04-14",
+      "testRequested": "General",
+      "status": "pending",
+      "importSource": "ocr",
+      "importedAt": "2026-04-14T22:28:07.414Z",
+      "standardized": true
+    },
+    {
+      "id": "1776205974782",
+      "sampleId": "BIO-2025-3287",
+      "patientName": "Unknown",
+      "sampleType": "Unspecified",
+      "collectionDate": "2024-04-15",
+      "receivedDate": "2024-04-16",
+      "testRequested": "General",
+      "status": "pending",
+      "importSource": "ocr",
+      "importedAt": "2026-04-14T22:32:54.782Z",
+      "standardized": true
+    },
+    {
+      "id": "1776206224535",
+      "sampleId": "SMP-001245",
+      "patientName": "Riya Sharma",
+      "sampleType": "Blood",
+      "collectionDate": "2024-04-15",
+      "receivedDate": "2024-04-16",
+      "testRequested": "Complete Blood Count (CBC)",
+      "status": "rejected",
+      "importSource": "ocr",
+      "importedAt": "2026-04-14T22:37:04.535Z",
+      "standardized": true,
+      "validatedAt": "2026-04-14T22:38:58.666Z",
+      "validatedBy": "Lab Manager",
+      "rejectionComment": "No comment provided."
+    },
+    {
+      "id": "1776205235619",
+      "sampleId": "BIO-99955558",
+      "patientName": "Gabsi",
+      "sampleType": "Blood",
+      "collectionDate": "2025-04-10",
+      "receivedDate": "2025-04-11",
+      "testRequested": "Complete Blood Count",
+      "status": "approved",
+      "importSource": "csv",
+      "importedAt": "2026-04-14T22:38:33.324Z",
+      "standardized": true,
+      "rawData": {
+        "Sample ID": "BIO-99955558",
+        "Patient Name": "gabsi",
+        "Sample Type": "Blood",
+        "Collection Date": "2025-04-10",
+        "Received Date": "2025-04-11",
+        "Test Requested": "Complete Blood Count"
+      },
+      "validatedAt": "2026-04-14T22:38:54.995Z",
+      "validatedBy": "Lab Manager"
+    },
+    {
+      "id": "1776206326557",
+      "sampleId": "SMP-001245",
+      "patientName": "Riya Sharma",
+      "sampleType": "Blood",
+      "collectionDate": "2024-04-15",
+      "receivedDate": "2024-04-16",
+      "testRequested": "Complete Blood Count (CBC)",
+      "status": "approved",
+      "importSource": "ocr",
+      "importedAt": "2026-04-14T22:38:46.557Z",
+      "standardized": true,
+      "validatedAt": "2026-04-14T22:38:53.837Z",
+      "validatedBy": "Lab Manager"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n-1776206338666",
+      "type": "validation",
+      "title": "Sample Rejected",
+      "message": "Sample SMP-001245 has been rejected. Reason: No comment provided..",
+      "read": false,
+      "createdAt": "2026-04-14T22:38:58.666Z",
+      "sampleId": "1776206224535"
+    },
+    {
+      "id": "n-1776206334995",
+      "type": "validation",
+      "title": "Sample Approved",
+      "message": "Sample BIO-99955558 has been approved.",
+      "read": false,
+      "createdAt": "2026-04-14T22:38:54.995Z",
+      "sampleId": "1776205235619"
+    },
+    {
+      "id": "n-1776206333837",
+      "type": "validation",
+      "title": "Sample Approved",
+      "message": "Sample SMP-001245 has been approved.",
+      "read": false,
+      "createdAt": "2026-04-14T22:38:53.837Z",
+      "sampleId": "1776206326557"
+    },
+    {
+      "id": "n-1776206326573",
+      "type": "submission",
+      "title": "OCR Sample Imported",
+      "message": "Sample SMP-001245 was imported via OCR scan and is awaiting validation.",
+      "read": false,
+      "createdAt": "2026-04-14T22:38:46.573Z",
+      "sampleId": "1776206326557"
+    },
+    {
+      "id": "n-1776206314978",
+      "type": "submission",
+      "title": "New Samples Imported",
+      "message": "1 sample(s) imported from \"test-samples.csv\" and awaiting validation.",
+      "read": false,
+      "createdAt": "2026-04-14T22:38:34.978Z"
+    },
+    {
+      "id": "n-1776206224624",
+      "type": "submission",
+      "title": "OCR Sample Imported",
+      "message": "Sample SMP-001245 was imported via OCR scan and is awaiting validation.",
+      "read": false,
+      "createdAt": "2026-04-14T22:37:04.624Z",
+      "sampleId": "1776206224535"
+    },
+    {
+      "id": "n-1776205974820",
+      "type": "submission",
+      "title": "OCR Sample Imported",
+      "message": "Sample BIO-2025-3287 was imported via OCR scan and is awaiting validation.",
+      "read": true,
+      "createdAt": "2026-04-14T22:32:54.820Z",
+      "sampleId": "1776205974782"
+    },
+    {
+      "id": "n-1776205687428",
+      "type": "submission",
+      "title": "OCR Sample Imported",
+      "message": "Sample BIO-2025-9211 was imported via OCR scan and is awaiting validation.",
+      "read": true,
+      "createdAt": "2026-04-14T22:28:07.428Z",
+      "sampleId": "1776205687414"
+    },
+    {
+      "id": "n-1776205297885",
+      "type": "validation",
+      "title": "Sample Approved",
+      "message": "Sample BIO-99988 has been approved.",
+      "read": false,
+      "createdAt": "2026-04-14T22:21:37.885Z",
+      "sampleId": "1776205235617"
+    },
+    {
+      "id": "n-1776205285541",
+      "type": "submission",
+      "title": "New Samples Imported",
+      "message": "1 sample(s) imported from \"test-samples.csv\" and awaiting validation.",
+      "read": false,
+      "createdAt": "2026-04-14T22:21:25.541Z"
+    },
+    {
+      "id": "n-1776202100475",
+      "type": "validation",
+      "title": "Sample Approved",
+      "message": "Sample BIO-2025-0002 has been approved.",
+      "read": false,
+      "createdAt": "2026-04-14T21:28:20.475Z",
+      "sampleId": "2"
+    },
+    {
+      "id": "n-1776202097184",
+      "type": "validation",
+      "title": "Sample Approved",
+      "message": "Sample BIO-2025-0001 has been approved.",
+      "read": false,
+      "createdAt": "2026-04-14T21:28:17.184Z",
+      "sampleId": "1"
+    },
+    {
+      "id": "n-1776202097182",
+      "type": "validation",
+      "title": "Sample Approved",
+      "message": "Sample BIO-2025-0001 has been approved.",
+      "read": false,
+      "createdAt": "2026-04-14T21:28:17.182Z",
+      "sampleId": "1"
+    },
+    {
+      "id": "n-1776202080869",
+      "type": "submission",
+      "title": "New Samples Imported",
+      "message": "5 sample(s) imported from \"test-samples.csv\" and awaiting validation.",
+      "read": false,
+      "createdAt": "2026-04-14T21:28:00.869Z"
+    },
+    {
+      "id": "n3",
+      "type": "validation",
+      "title": "Sample Approved",
+      "message": "Sample BIO-2025-0003 has been approved by Lab Manager.",
+      "read": true,
+      "createdAt": "2025-04-07T14:00:00Z",
+      "sampleId": "3"
+    },
+    {
+      "id": "n4",
+      "type": "validation",
+      "title": "Sample Rejected",
+      "message": "Sample BIO-2025-0004 was rejected. Reason: Collection date inconsistency.",
+      "read": true,
+      "createdAt": "2025-04-07T15:00:00Z",
+      "sampleId": "4"
+    }
+  ]
+}
